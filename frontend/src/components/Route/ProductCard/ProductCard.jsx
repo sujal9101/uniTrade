@@ -84,7 +84,7 @@ const ProductCard = ({ data,isEvent }) => {
           </div>
 
           <div className="py-2 flex items-center justify-between">
-            <div className="flex">
+            <div className="flex items-center">
               <h5 className={`${styles.productDiscountPrice}`}>
                 {data.originalPrice === 0
                   ? data.originalPrice

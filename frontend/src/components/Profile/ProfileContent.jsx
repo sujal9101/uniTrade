@@ -679,7 +679,7 @@ const Address = () => {
                   </div>
 
                   <div className="w-full pb-2">
-                    <label className="block pb-2">Zip Code</label>
+                    <label className="block pb-2">Pin Code</label>
                     <input
                       type="number"
                       className={`${styles.input}`}

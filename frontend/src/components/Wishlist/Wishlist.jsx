@@ -33,7 +33,7 @@ const Wishlist = ({ setOpenWishlist }) => {
                 onClick={() => setOpenWishlist(false)}
               />
             </div>
-            <h5>Wishlist Items is empty!</h5>
+            <h5>Your Wishlist is empty!</h5>
           </div>
         ) : (
           <>

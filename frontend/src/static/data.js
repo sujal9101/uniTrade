@@ -27,7 +27,7 @@ export const navItems = [
     {
       id: 1,
       title: "Free Shipping",
-      Description: "From all orders over 100$",
+      Description: "For all orders ",
       icon: (
         <svg
           width="36"
@@ -190,11 +190,11 @@ export const navItems = [
   // categories data
   export const categoriesData = [
     {
-      id: 1,
-      title: "Computers and Laptops",
+      id: 3,
+      title: "Accesories",
       subTitle: "",
       image_Url:
-        "https://cdn.shopify.com/s/files/1/1706/9177/products/NEWAppleMacbookProwithM1ProChip14InchLaptop2021ModelMKGQ3LL_A_16GB_1TBSSD_custommacbd.jpg?v=1659592838",
+        "https://img.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories_335657-2345.jpg?w=2000",
     },
     // {
     //   id: 2,
@@ -203,13 +203,6 @@ export const navItems = [
     //   image_Url:
     //     "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2021-07/kosme1.png",
     // },
-    {
-      id: 3,
-      title: "Accesories",
-      subTitle: "",
-      image_Url:
-        "https://img.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories_335657-2345.jpg?w=2000",
-    },
     {
       id: 4,
       title: "Cloths",
@@ -237,6 +230,13 @@ export const navItems = [
     //   subTitle: "",
     //   image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
     // },
+    {
+      id: 1,
+      title: "Computers and Laptops",
+      subTitle: "",
+      image_Url:
+        "https://cdn.shopify.com/s/files/1/1706/9177/products/NEWAppleMacbookProwithM1ProChip14InchLaptop2021ModelMKGQ3LL_A_16GB_1TBSSD_custommacbd.jpg?v=1659592838",
+    },
     {
       id: 8,
       title: "Mobile and Tablets",

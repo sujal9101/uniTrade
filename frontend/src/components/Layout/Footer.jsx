@@ -1,9 +1,8 @@
 import React from "react";
 import {
-  AiFillFacebook,
+  AiFillMail,
   AiFillInstagram,
-  AiFillYoutube,
-  AiOutlineTwitter,
+  AiFillLinkedin,
 } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import {
@@ -15,7 +14,7 @@ import {
 const Footer = () => {
   return (
     <div className="bg-[#000] text-white">
-      <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#342ac8] py-7">
+      {/* <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#342ac8] py-7">
         <h1 className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5">
           <span className="text-[#56d879]">Subscribe</span> us for get news{" "}
           <br />
@@ -33,30 +32,37 @@ const Footer = () => {
             Submit
           </button>
         </div>
-      </div>
+      </div> */}
       <div className="grid grid-cols-1 sm:gird-cols-3 lg:grid-cols-4 gap-6 sm:px-8 px-5 py-16 sm:text-center">
         <ul className="px-5 text-center sm:text-start flex sm:block flex-col items-center">
           <img
-            src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+            // src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+            src="uniTrade.png" 
             alt=""
-            style={{ filter: "brightness(0) invert(1)" }}
+            style={{ width: '150px', height: 'auto', filter: "brightness(0) invert(1)"}}
           />
           <br />
-          <p>The home and elements needeed to create beatiful products.</p>
-          <div className="flex items-center mt-[15px]">
-            <AiFillFacebook size={25} className="cursor-pointer" />
-            <AiOutlineTwitter
+          {/* <p>The home and elements needeed to create beatiful products.</p> */}
+          <div className="flex items-center ">      
+            <a href="mailto:sujalgangshettiwar9101@gmail.com" target="_blank" rel="noopener noreferrer">
+              <AiFillMail
+                size={25}
+                style={{ marginLeft: "15px", cursor: "pointer" }}
+              />
+            </a>
+            
+            <a href="https://www.linkedin.com/in/sujal-gangshettiwar-963138263/" target="_blank" rel="noopener noreferrer">
+            <AiFillLinkedin
               size={25}
               style={{ marginLeft: "15px", cursor: "pointer" }}
             />
-            <AiFillInstagram
-              size={25}
-              style={{ marginLeft: "15px", cursor: "pointer" }}
-            />
-            <AiFillYoutube
-              size={25}
-              style={{ marginLeft: "15px", cursor: "pointer" }}
-            />
+          </a>
+          <a href="https://www.instagram.com/sujal_gangshettiwar/" target="_blank" rel="noopener noreferrer">
+              <AiFillInstagram
+                size={25}
+                style={{ marginLeft: "15px", cursor: "pointer" }}
+              />
+            </a>
           </div>
         </ul>
 
@@ -106,19 +112,20 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div
+      {/* <div
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
-         text-center pt-2 text-gray-400 text-sm pb-8"
+         text-center  text-gray-400 text-sm pb-5"
       >
-        <span>© 2020 Becodemy. All rights reserved.</span>
-        <span>Terms · Privacy Policy</span>
+        <span>© 2024 Sujal Gangshettiwar </span> 
+        <span>All rights reserved </span>
+        <span>Terms and Private Policy</span>
         <div className="sm:block flex items-center justify-center w-full">
           <img
             src="https://hamart-shop.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter-payment.a37c49ac.png&w=640&q=75"
             alt=""
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

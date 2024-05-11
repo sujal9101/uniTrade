@@ -14,8 +14,10 @@ const AdminHeader = () => {
       <div>
         <Link to="/">
           <img
-            src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+            // src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+            src="uniTrade.png" 
             alt=""
+            style={{ width: '150px', height: 'auto' }}
           />
         </Link>
       </div>

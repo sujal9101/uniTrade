@@ -196,7 +196,7 @@ const ShippingInfo = ({
             />
           </div>
           <div className="w-[50%]">
-            <label className="block pb-2">Zip Code</label>
+            <label className="block pb-2">Pin Code</label>
             <input
               type="number"
               value={zipCode}
@@ -227,7 +227,7 @@ const ShippingInfo = ({
             </select>
           </div>
           <div className="w-[50%]">
-            <label className="block pb-2">City</label>
+            <label className="block pb-2">State</label>
             <select
               className="w-[95%] border h-[40px] rounded-[5px]"
               value={city}
